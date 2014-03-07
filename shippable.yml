@@ -7,3 +7,8 @@ services:
 install: pip install --use-mirrors -r requirements.txt
 script:
  - python sample.py
+ 
+notifications:
+    email:
+      - vamshi@shippable.com 
+      - vidya@shippable.com
