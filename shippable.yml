@@ -1,7 +1,7 @@
 language: python
-build_environment: ubuntu1304
+
 python:
- - "2.7"
+ - "3.2"
 services: 
  - memcached 
 install: pip install --use-mirrors -r requirements.txt
