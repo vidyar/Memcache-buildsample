@@ -4,7 +4,8 @@ python:
  - "2.6"
  
 services:
- - memcached#-1.4.15
+# - memcached-1.4.15
+ - memcached
 install: pip install --use-mirrors -r requirements.txt
 
 
